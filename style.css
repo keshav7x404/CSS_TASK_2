@@ -1,0 +1,56 @@
+/* Vertical Navigation Bar */
+.vertical-nav {
+    width: 200px;
+    background-color: lightblue;
+    border: 1px solid black;
+  }
+  
+  .vertical-nav a {
+    display: block;
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+  }
+  
+  .vertical-nav a.active {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .vertical-nav a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Horizontal Navigation Bar */
+  .horizontal-nav {
+    border: 1px solid black;
+    background-color: #ddd;
+    overflow: hidden;
+    width: fit-content;
+  }
+  
+  .horizontal-nav a {
+    float: left;
+    display: block;
+    color: blue;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-right: 1px solid white;
+  }
+  
+  .horizontal-nav a:last-child {
+    border-right: none;
+  }
+  
+  .horizontal-nav a.active {
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .horizontal-nav a:hover {
+    background-color: #bbb;
+  }
+  
